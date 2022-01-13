@@ -79,6 +79,7 @@ public with sharing class MetadataDataController
 	public abstract class Node
 	{
 		public String id;
+		public String id1;
 		public String text;
 		public String cls;
 		public boolean leaf;
