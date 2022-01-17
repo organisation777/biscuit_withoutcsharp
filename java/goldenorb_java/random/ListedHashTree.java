@@ -82,6 +82,7 @@ public class ListedHashTree extends HashTree implements Serializable, Cloneable 
     public void set(Object key, Object value) {
         if (!data.containsKey(key)) {
             order.add(key);
+            System.out.println("modified");
         }
         super.set(key, value);
     }
