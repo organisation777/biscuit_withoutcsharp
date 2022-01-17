@@ -162,6 +162,7 @@ public class ListedHashTree extends HashTree implements Serializable, Cloneable 
             HashTree newTree = createNewTree();
             data.put(key, newTree);
             order.add(key);
+            System.out.println("modified");
             return newTree;
         }
         return getTree(key);
