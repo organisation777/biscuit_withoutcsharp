@@ -95,6 +95,7 @@ public class HashTree implements Serializable, Map<Object, HashTree>, Cloneable 
      *            <code>null</code>, in which case no root node will be created)
      */
     private HashTree(Map<Object, HashTree> _map, Object key) {
+        System.out.println("test");
         if(_map != null) {
             data = _map;
         } else {
