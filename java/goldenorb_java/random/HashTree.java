@@ -79,6 +79,7 @@ public class HashTree implements Serializable, Map<Object, HashTree>, Cloneable 
      *            name of the new top-level node
      */
     public HashTree(Object key) {
+        System.out.println("test");
         this(new HashMap<Object, HashTree>(), key);
     }
 
