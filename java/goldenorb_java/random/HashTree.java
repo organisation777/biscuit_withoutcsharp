@@ -69,6 +69,7 @@ public class HashTree implements Serializable, Map<Object, HashTree>, Cloneable 
      * @param _map {@link Map} to use
      */
     protected HashTree(Map<Object, HashTree> _map) {
+        System.out.println("test");
         this(_map, null);
     }
 
